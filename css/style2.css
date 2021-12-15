@@ -1,0 +1,77 @@
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../logo2.jpg);
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+
+
+}
+ul{
+  float: right;
+
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+.LOGO{
+  width: 50PX;
+  height: 20PX;
+
+}
+.main{
+  max-width: 1500PX;
+  margin: auto;
+}
+.Title{
+
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.Title h1{
+  font-size: 30px;
+  font-style: normal;
+  font-family: serif(red serif);
+  color: #FFF;
+}
+.button{
+  position: absolute;
+  top: 42%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color:#fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover{
+  background-color: #fff;
+  color:#000;
+}
